@@ -6,7 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Dating2</h1>
-</body>
+<body> 
+    <div id="content">
+      
+      
+      <!--Header-->
+      <header>
+       <div class = "logo">
+         <img src="https://cdn.glitch.com/4cf8338f-582d-410a-9a1b-78d34fab1fec%2Funtitled-presentation.jpg?v=1622926359561" alt="Logo image">          </div>
+              
+                  <li class = "blank"> &nbsp;</li>   
+                  <li class = "home"><a href="index.html">Home</a></li>
+                  <li class = "page1"><a href="subpage-1.html">Rules of 3</a></li>
+                  <li class = "page2"><a href="subpage-2.html">More Rules!</a></li>
+                  <li class = "plan"><a href="site-plan.html">Plan</a></li>
+                
+      </header>
+      
+      
+      <!--Main-->
+      <main>
+          <h2 class="home-headline">Dating Terminology and Definitions</h2>
+                <section class="section-1"> 
+
+          <div class="home-left-img">
+            <img src="https://cdn.glitch.com/4cf8338f-582d-410a-9a1b-78d34fab1fec%2FWebp.net-resizeimage.jpg?v=1624738675682" alt="Left Image">
+          </div>
+          
+          <div class="button-1">
+          <button class="accordion">Date</button>
+            <div class="panel">
+              <p>Date - (noun) an activity lasting roughly 2-5 hours in which two people participate who may or may not like                     each other.</p> 
+            </div>
+          </div>
+
+          
+        <div class="button-2">
+          <button class="accordion">Dating</button>
+            <div class="panel">
+              <p>Date/Dating - (verb) you are “dating” someone if you are: a) currently on a date with that person, or b)                     have gone on two or more dates with a particular person and there is a likelihood you will go on another date with said                         person in the near future.</p> 
+            </div>
+          </div>
+          
+        <div class="button-3">
+          <button class="accordion">Relationship</button>
+            <div class="panel">
+              <p>Relationship - (noun) We all have simple or complex relationships with the people in our lives. In                     the realm of dating, we are usually referring to romantic relationships or exclusive* relationships. Usually, both parties                     tacitly agree to enter a relationship.</p> 
+             </div>
+          </div>
+          </section>
+          
+          
+          <div class="home-right-img">
+            <img src="https://cdn.glitch.com/4cf8338f-582d-410a-9a1b-78d34fab1fec%2Fdefinitions2.jpg?v=1624739657868" alt="Right Image">
+          </div>
+          
+          <button class="accordion">Break-up</button>
+            <div class="panel">
+              <p>Break-up - (noun/verb) - A break-up has occurred when both people in a relationship know that they are no                   longer exclusively dating. Both parties don’t need to agree to the break-up; in fact, a break-up is usually executed by one                     person. There are lots of legitimate reasons to break up with someone: you don’t like the other person anymore, you like someone               else, you want to date more/different people.</p>
+            </div>
+          
+          <button class="accordion">Serious</button>
+            <div class="panel">
+              <p>Serious - (adj.) The “seriousness” of a relationship is directly proportional to how devastated one or both                 people in a relationship would be if a break up were to occur. One might suddenly find themselves in a “Serious” relationship,                 only because they discovered their dating partner has much stronger feelings than they initially realized. (e.g. Whoa! We were                 more serious than I originally thought.) </p>
+            </div>
+          
+          <button class="accordion">Exclusive</button>
+            <div class="panel">
+              <p>Exclusive - (adj.) Dating someone exclusively means that you deliberately eschew dating other people. Some                 might make their relationship exclusive because they don’t want to date other people. Others want to test the waters of being                   committed to exactly one person (probably to see if they can tolerate/enjoy spending lots of time with just one person.)                       Sometimes, people find themselves in an exclusive relationship with someone, but they’re not going out on any dates. This is                   lame.</p>
+            </div> 
+       
+          
+          
+          <script>
+          var acc = document.getElementsByClassName("accordion");
+          var i;
+
+          for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var panel = this.nextElementSibling;
+              if (panel.style.display === "block") {
+                panel.style.display = "none";
+              } else {
+                panel.style.display = "block";
+              }
+            });
+          }
+        </script>
+      </main>
+      
+      
+      
+      
+      <!--Footer-->
+      <footer>
+        <p class="watermark"> &copy; 20XX Dry Oar - Lily Sorensen - WDD 130</p>
+        <div class="social">
+          <a href="https://www.instagram.com" target="_blank">
+            <img src="https://cdn.glitch.com/a5cd6bb3-d76c-4a26-ad5e-6de118460945%2Finstagram.png?v=1620923397903" alt="Instragram icon">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="https://cdn.glitch.com/a5cd6bb3-d76c-4a26-ad5e-6de118460945%2Ffacebook.png?v=1620923503417" alt="Facebook icon">
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="https://cdn.glitch.com/a5cd6bb3-d76c-4a26-ad5e-6de118460945%2Ftwitter.png?v=1620923518396" alt="Twitter icon">
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
